@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dom four</title>
+</head>
+<body style="background-color: #212121; color: white;">
+    <ul class="language">
+      <li>JavaScript</li>
+    </ul>
+</body>
+<script>
+    function addlang(langName){
+        const li = document.createElement('li')
+        li.innerHTML=langName
+        const ul = document.querySelector('.language')
+        ul.appendChild(li)
+    }
+    const langs = ['java','C++','Python','Mojo','Golang']
+    langs.forEach((lang)=>addlang(lang))
+    function addOptiLang(langName){
+        const li = document.createElement('li')
+        li.appendChild(document.createTextNode(langName))
+        document.querySelector('.language').appendChild(li)
+    }
+    langs.forEach((lang)=>addOptiLang(lang))
+   const secondLand =  document.querySelector('li:nth-child(2)')
+   const newli= document.createElement('li')
+   newli.textContent = "Mojo 1"
+   secondLand.replaceWith(newli)
+   const lastlang = document.querySelector('li:last-child')
+   lastlang.remove()
+</script>
+</html>
