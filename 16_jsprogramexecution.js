@@ -23,5 +23,4 @@
 
 // 📝Note:  the returned value being passed to the global environment, it's more accurate to say that the returned value is passed to the calling context. If a function is called within another function, the returned value is typically used in the context of the calling function.
 
-// Great video Hitesh sir.
 // correct me if something wrong in above text.
