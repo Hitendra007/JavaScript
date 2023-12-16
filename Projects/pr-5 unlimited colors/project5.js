@@ -13,9 +13,11 @@ const randomColor = () => {
 // Event listener for the "Start" button
 document.querySelector('#start').addEventListener('click', () => {
     // Set interval to change the background color every second
-    ref = setInterval(() => {
-        document.querySelector('body').style.backgroundColor = randomColor();
-    }, 1000);
+    if(!ref){
+        ref = setInterval(() => {
+            document.querySelector('body').style.backgroundColor = randomColor();
+        }, 1000);
+    }
     console.log('changed')
 });
 
@@ -23,6 +25,6 @@ document.querySelector('#start').addEventListener('click', () => {
 document.querySelector('#stop').addEventListener('click', () => {
     // Clear the interval when the "Stop" button is clicked
     clearInterval(ref);
-    ref=null;
+    ref = null;
     console.log('Cleared interval');
 });
