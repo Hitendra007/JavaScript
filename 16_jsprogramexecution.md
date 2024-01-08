@@ -17,3 +17,7 @@ The call stack is a data structure that keeps track of the execution context of 
 Once the global execution context completes, the program finishes its execution.
 
 📝 Note: The returned value being passed to the global environment, it's more accurate to say that the returned value is passed to the calling context. If a function is called within another function, the returned value is typically used in the context of the calling function.
+
+
+React talk
+https://chat.openai.com/share/641fddf8-27c2-4701-88df-83b308cd4dda
