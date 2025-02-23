@@ -1,10 +1,10 @@
-const name = "Hitendra singh"
+const nam = "Hitendra singh"
 const repoCount = 50 
 
 // console.log(name +" "+repoCount)
-console.log(`Hello my name is ${name} and my repo count is ${repoCount}`)
+// console.log(`Hello my name is ${nam} and my repo count is ${repoCount}`)
 const gameName = new String('Hitendra-Game')
-console.log(gameName)
+// console.log(gameName)
 console.log(gameName.__proto__);
 console.log(gameName.length)
 console.log(gameName.toUpperCase())
@@ -18,5 +18,5 @@ console.log(anotherString)
 const newStringOne = "    Hitendra    "
 console.log(newStringOne.trim())
 const url = "https://hitesh.com/hitesh%20chaudhary"
-console.log(url.replace('%20','-'))
+console.log(url.replace('/h','-'))
 console.log(gameName.split('-'))

@@ -4,6 +4,7 @@
 
 //java script is a dynamically typed language ,because data type of variable decided by the type of content it holds
 
+
 const score = 100
 const score_v = 0.3
 const isLoggedIn = false
@@ -12,7 +13,7 @@ let userEmail;
 const id = Symbol('123')
 const anotherId = Symbol('123')
 console.log(id === anotherId)
-
+console.log(id,anotherId)
 
 
 // Refrence type (Non premitive Datatype)

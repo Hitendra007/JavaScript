@@ -20,7 +20,7 @@ console.log(Array.isArray('Hitesh')); // Output: false
 console.log(Array.from("Hitendra singh")); // Output: ['H', 'i', 't', 'e', 'n', 'd', 'r', 'a', ' ', 's', 'i', 'n', 'g', 'h']
 
 // Converting object keys to an array
-console.log(Array.from(Object.keys({ name: "Hitendra" }))); // Output: ['name']
+console.log(Array.from(Object.keys({ name: "Hitendra",lastname:"Singh"}))); // Output: ['name']
 
 // Creating an array using Array.of
 let score1 = 100;

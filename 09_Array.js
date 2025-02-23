@@ -16,7 +16,7 @@ const new1 = myarray.slice(1,3) // it return elems in range [1,3) means 1,2 from
 
 console.log(new1)
 console.log("B ",myarray)
-
+console.log(myarray)
 const new2 = myarray.splice(1,3)//splice change original array ,it removes range of elems from original array in range [1,3]
 console.log(new2)
 console.log("c ",myarray)

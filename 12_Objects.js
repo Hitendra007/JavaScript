@@ -42,9 +42,8 @@ console.log(obj1);
 // Output: { 1: 'a', 2: 'b' }
 
 // Using Object.keys, Object.values, and Object.entries
-console.log(Object.keys(tinderUser));
+console.log(Object.keys(tinderUser),'jkgkj');
 // Output: [ 'id', 'name', 'isLoggedIn' ]
-
 console.log(Object.values(tinderUser));
 // Output: [ '123abc', 'Sammy', false ]
 
@@ -68,6 +67,9 @@ const course = {
     price:'999',
     courseInstructor:"Hitesh choudhary"
 }
+
 //cousre.courseInstructor
 const {courseInstructor:instructor} = course
 console.log(instructor)
+const {courseInstructor} = course
+console.log(courseInstructor)

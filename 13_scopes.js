@@ -1,16 +1,17 @@
-// let a = 3000
-// if(true)
-// {
-//     a = 10
-//     const b = 20
-//     var c = 30
-//     console.log(a)
-// }
-//  console.log(a)
+let a = 3000
+if(true)
+{
+    a = 10
+    const b = 20
+    var c = 30
+    console.log(a)
+}
+ console.log(a)
 // console.log(b)
-// console.log(c)
+console.log(c)
 function one(){
     const username = "Hitendra"
+    var ty='c'
     function two()
     {
         const website = "yoututbe"
@@ -19,6 +20,7 @@ function one(){
     // console.log(website)
     two()
 }
+console.log(ty)
 // one()
 if(true){
     const username = "Hitendra"
